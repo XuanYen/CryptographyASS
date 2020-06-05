@@ -1,0 +1,101 @@
+{
+  "encryptedfiles": [
+    {
+      "id": "StWIm7PsS",
+      "name": "message.txt",
+      "cipher": "466d3b27caf390fe453ce5f1b20cef43",
+      "mimetype": "text/plain",
+      "hashmsg": {
+        "words": [
+          1042650634,
+          2044446363,
+          1733088492,
+          1739009122
+        ],
+        "sigBytes": 16
+      },
+      "hashkey": {
+        "words": [
+          -228970553,
+          647018368,
+          -1298051564,
+          251046368
+        ],
+        "sigBytes": 16
+      },
+      "hashdecrypted": {}
+    },
+    {
+      "id": "hdcPYdPJ_",
+      "name": "message.txt",
+      "cipher": "5b70ffdb39f4b58443b4ff0067daa72f",
+      "mimetype": "text/plain",
+      "hashmsg": {
+        "words": [
+          1042650634,
+          2044446363,
+          1733088492,
+          1739009122
+        ],
+        "sigBytes": 16
+      },
+      "hashkey": {
+        "words": [
+          -228970553,
+          647018368,
+          -1298051564,
+          251046368
+        ],
+        "sigBytes": 16
+      }
+    },
+    {
+      "id": "Zo9EtBB4f",
+      "name": "1.jpg",
+      "cipher": "91a145c6c957bb9f8e7609c85841fea2",
+      "mimetype": "image/jpeg",
+      "hashmsg": {
+        "words": [
+          -871949293,
+          496596366,
+          -657953912,
+          1321165606
+        ],
+        "sigBytes": 16
+      },
+      "hashkey": {
+        "words": [
+          -228970553,
+          647018368,
+          -1298051564,
+          251046368
+        ],
+        "sigBytes": 16
+      }
+    },
+    {
+      "id": "Y1YIGoNEe",
+      "name": "1.jpg",
+      "cipher": "8ba5187f4623c342065bf2c6891eba09",
+      "mimetype": "image/jpeg",
+      "hashmsg": {
+        "words": [
+          -871949293,
+          496596366,
+          -657953912,
+          1321165606
+        ],
+        "sigBytes": 16
+      },
+      "hashkey": {
+        "words": [
+          -228970553,
+          647018368,
+          -1298051564,
+          251046368
+        ],
+        "sigBytes": 16
+      }
+    }
+  ]
+}

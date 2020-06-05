@@ -1,0 +1,13 @@
+extends ../layouts/common
+block content
+    table.table
+        tr
+            th Name
+            th Mimetype
+            th Actions
+        each file in files
+          tr
+            td= file.name
+            td= file.mimetype
+            td
+              a.btn.btn-light(href="/uploads/"+file.cipher) Download
