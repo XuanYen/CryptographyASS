@@ -1,0 +1,7 @@
+extends ../layouts/common
+block content
+    .alert-primary(role="alert") Decrypted successfully!
+    button
+        a.btn.btn-primary(href="/"+src) View it
+    button
+        a.btn.btn-light(href="/decrypt/checkhash/"+id) Check hash

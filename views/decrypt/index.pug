@@ -1,10 +1,21 @@
 extends ../layouts/common
 block content
+    if error
+        .alert.alert-danger(role='alert')=error
+    .alert.alert-warning.alert-dismissible.fade.show(role='alert')
+        strong File encrypted!
+        | You must submit file key to decrypt it.
     form(action="/decrypt", method="POST",enctype="multipart/form-data")
         .form-group
             label(for="file") Choose file
             input#file.form-control(name="file", type="file")
             label(for="key") Choose key
             input#key.form-control(name="file", type="file")
-        button.btn.btn-primary(type="submit") Submit
-
+            select.form-control(name="type")
+                option Select file type to decrypt
+                option(name="text", value="text") Decrypt for text file
+                option(name="img",value="img") Decrypt for img file
+                option(name="pdf",value="pdf") Decrypt for pdf file
+                option(name="audio",value="audio") Decrypt for audio file
+                option(name="video",value="video") Decrypt for video file
+        button.btn.btn-light Submit

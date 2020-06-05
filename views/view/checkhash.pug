@@ -1,0 +1,16 @@
+extends ../layouts/common
+block content
+    table.table
+        tr
+            th File
+            th Words
+            th sigBytes
+        tr
+            td File encrypt
+            td= wordsmsg
+            td= msg
+        tr
+            td File decrypted
+            td= worddec
+            td= dec
+    span.badge.badge-secondary=label

@@ -4,10 +4,13 @@ block content
         tr
             th Name
             th Mimetype
+            th Status
             th Actions
         each file in files
           tr
             td= file.name
             td= file.mimetype
+            td Encrypted
             td
               a.btn.btn-light(href="/uploads/"+file.cipher) Download
+          

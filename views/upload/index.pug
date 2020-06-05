@@ -1,5 +1,7 @@
 extends ../layouts/common
 block content
+    if error
+        .alert.alert-danger(role='alert')=error
     form(action="/upload", method="POST",enctype="multipart/form-data")
         .form-group
             label(for="file") Choose file

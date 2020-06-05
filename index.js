@@ -18,6 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-
 app.use(express.static('public'))
 app.use(express.static(__dirname));
 
+app.get('/',(req,res)=>res.render('index'));
 app.use('/upload', uploadRoute);
 app.use('/decrypt', decryptRoute);
 app.use('/view', viewRoute);
